@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# tests
+if pytest dressings_manager_service/tests; then
+    echo tests passed
+else
+    echo tests failed
+    exit 1
+fi
